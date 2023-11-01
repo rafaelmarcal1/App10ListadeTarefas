@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lista Tarefas</string>
+    <string name="text_user">Usuário</string>
+    <string name="text_password">Senha</string>
+    <string name="text_only_numbers">Apenas números</string>
+    <string name="check_save_user_data">Salvar dados do usuário</string>
+    <string name="button_login">Entrar</string>
+    <string name="button_save">Salvar</string>
+    <string name="text_new_user">Adicionar novo usuário</string>
+    <string name="text_add_new_task">Adicionar nova tarefa</string>
+    <string name="text_task_done">Tarefa concluída</string>
+    <string name="text_task">Tarefa</string>
+    <string name="text_required">Obrigatório*</string>
+    <string name="text_description">Descrição</string>
+    <string name="text_optional">Opcional</string>
+    <string name="text_confirm_password">Confirmação da senha</string>
+    <string name="password_not_equal">Senha diferente</string>
+    <string name="write_username">Digite o username</string>
+</resources>
