@@ -14,6 +14,7 @@ import java.util.List;
 
 import br.edu.ifsp.dmo.app10listatarefas.R;
 import br.edu.ifsp.dmo.app10listatarefas.model.Task;
+import br.edu.ifsp.dmo.app10listatarefas.view.TasksActivity;
 
 public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.ViewHolder> {
 
@@ -21,7 +22,7 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.ViewHolder> {
     private List<Task> dataset;
     private TaskItemClickListener listener;
 
-    public TaskAdapter(Context context, List<Task> dataset, TaskItemClickListener listener) {
+    public TaskAdapter(Context context, List<Task> dataset, TasksActivity listener) {
         this.context = context;
         this.dataset = dataset;
         this.listener = listener;

@@ -19,11 +19,13 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import br.edu.ifsp.dmo.app10listatarefas.Constants;
 import br.edu.ifsp.dmo.app10listatarefas.R;
 import br.edu.ifsp.dmo.app10listatarefas.adapter.TaskAdapter;
+import br.edu.ifsp.dmo.app10listatarefas.adapter.TaskItemClickListener;
 import br.edu.ifsp.dmo.app10listatarefas.dao.TaskDao;
 import br.edu.ifsp.dmo.app10listatarefas.model.Task;
 import br.edu.ifsp.dmo.app10listatarefas.model.User;
 
-public class TasksActivity extends AppCompatActivity {
+public class TasksActivity extends AppCompatActivity implements TaskItemClickListener {
+
     private User user;
     private TaskDao dao;
     private FloatingActionButton button;
